@@ -19,6 +19,7 @@ mongoose.connect('mongodb://127.0.0.1:27017/articlesdb')
 .then(()=>console.log('Db Connected'))
 .catch(()=>console.log('error'));
 
+//comment
 app.listen(4000,()=>{
     console.log('Server is connected at 3000');
 });
